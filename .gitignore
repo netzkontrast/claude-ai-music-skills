@@ -1,5 +1,4 @@
-# User content (private)
-/artists/
+# User content — tracked in this repo (removed /artists/ exclusion)
 !genres/**/artists/
 research/
 IDEAS.md
@@ -12,8 +11,16 @@ __pycache__/
 .venv/
 venv/
 mastered/
+
+# Audio/document binaries — track directory structure only (via .gitkeep)
 *.wav
 *.mp3
+*.aiff
+*.flac
+*.ogg
+*.png
+*.jpg
+*.jpeg
 
 # Primary source documents - too large for Git
 *.pdf
