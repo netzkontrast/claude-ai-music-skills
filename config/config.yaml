@@ -1,0 +1,38 @@
+# =============================================================================
+# The Agency System — bitwize-music Configuration
+# Artist: Michael Schimmer
+# =============================================================================
+
+artist:
+  name: "the-agency-system"
+  genres:
+    - "dystopian-future-wave"
+    - "darkwave"
+    - "electronic"
+  style: >
+    Cinematic, emotional, reflective, haunting dark ambient and dystopian future synth.
+    A DID system making art. Blends EBM, Darkwave, Synthwave, Futurepop, and Dark Ambient
+    through a cybernetic-psychological lens mapping trauma, dissociation, and polyphonic
+    resilience onto cold electronic architecture. German and English lyrical concepts.
+    BPM range: 90 (introspective Darkwave) to 125+ (aggressive EBM/Industrial).
+
+paths:
+  content_root: "/home/user/claude-ai-music-skills"
+  audio_root: "/home/user/claude-ai-music-skills/audio"
+  documents_root: "/home/user/claude-ai-music-skills/documents"
+  overrides: "/home/user/claude-ai-music-skills/overrides"
+  ideas_file: "/home/user/claude-ai-music-skills/IDEAS.md"
+
+urls:
+  apple_music: "https://music.apple.com/gb/artist/the-agency-system/1740632646"
+
+generation:
+  service: suno
+  additional_genres:
+    - "dystopian-future-wave"
+    - "darkwave"
+    - "ebm"
+    - "futurepop"
+    - "dark-ambient"
+    - "industrial"
+    - "synthwave"
